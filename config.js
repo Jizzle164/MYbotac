@@ -5,7 +5,7 @@ const config = {
   "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
   "token": "",//Botun, tokeni.
   "dashboard" : {
-    "oauthSecret": "",//Client secret.
+    "oauthSecret": "4G99fsj3tq5X-mkcyL43tsqeodcKePhG",//Client secret.
     "callbackURL": `https://v12muzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
     "sessionSecret": "Codare",//Bu kısımı, değiştirmeyiniz.
     "domain": "https://v12muzik.glitch.me"//Sitenin, adresi.
