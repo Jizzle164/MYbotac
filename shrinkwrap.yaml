@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/eeb4c1475493c1cde00eb6128f2d0cf8159fbea2
+  discord.js: github.com/discordjs/discord.js/01ceda5b0cd6a14a49862a91b14c714bca4898a9
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.5
   express: 4.17.1
@@ -8,7 +8,7 @@ dependencies:
   helmet: 3.23.3
   level-session-store: 2.2.0
   marked: 1.1.1
-  moment: 2.27.0
+  moment: 2.28.0
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
   passport: 0.4.1
@@ -811,10 +811,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-cBMXjSW+fjOb4tyaVHuaVE/A5TqkukDWiOfxxAjY+PEqmmBQlLwn+8OzwPiG3brouXKY5Un4pBjAeB6UToXHaQ==
-  /moment/2.27.0:
+  /moment/2.28.0:
     dev: false
     resolution:
-      integrity: sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+      integrity: sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
   /ms/2.0.0:
     dev: false
     resolution:
@@ -1465,7 +1465,7 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/eeb4c1475493c1cde00eb6128f2d0cf8159fbea2:
+  github.com/discordjs/discord.js/01ceda5b0cd6a14a49862a91b14c714bca4898a9:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1480,7 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/eeb4c1475493c1cde00eb6128f2d0cf8159fbea2'
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/01ceda5b0cd6a14a49862a91b14c714bca4898a9'
     version: 12.3.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
