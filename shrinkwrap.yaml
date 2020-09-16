@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/01ceda5b0cd6a14a49862a91b14c714bca4898a9
+  discord.js: github.com/discordjs/discord.js/1e63f3756e814d6b1a2a9c17af9c2b28ce37e472
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.5
   express: 4.17.1
@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.10.1:
+  /@types/node/14.10.2:
     dev: false
     resolution:
-      integrity: sha512-aYNbO+FZ/3KGeQCEkNhHFRIzBOUgc7QvcVNKXbfnhDkSfwUv91JsQQa10rDgKSTSLkXZ1UIyPe4FJJNVgw1xWQ==
+      integrity: sha512-IzMhbDYCpv26pC2wboJ4MMOa9GKtjplXfcAqrMeNJpUUwpM/2ATt2w1JPUXwS6spu856TvKZL2AOmeU2rAxskw==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -1445,7 +1445,7 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/7260efe5ab0cf68ad9eade7734eb7a98af1276db:
     dependencies:
-      '@types/node': 14.10.1
+      '@types/node': 14.10.2
       prism-media: 1.2.2
       ytdl-core: 3.2.2
     dev: false
@@ -1465,7 +1465,7 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/01ceda5b0cd6a14a49862a91b14c714bca4898a9:
+  github.com/discordjs/discord.js/1e63f3756e814d6b1a2a9c17af9c2b28ce37e472:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1480,7 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/01ceda5b0cd6a14a49862a91b14c714bca4898a9'
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/1e63f3756e814d6b1a2a9c17af9c2b28ce37e472'
     version: 12.3.1
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
