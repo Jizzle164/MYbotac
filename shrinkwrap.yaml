@@ -13,7 +13,7 @@ dependencies:
   opusscript: 0.0.7
   passport: 0.4.1
   passport-discord: 0.1.4
-  quick.db: 7.1.1
+  quick.db: 7.1.2
   simple-youtube-api: 5.2.1
   ytdl-core: 3.2.2
   ytdl-core-discord: github.com/amishshah/ytdl-core-discord/4a1c6b7f5acc9266bdef93760040219a541e1628
@@ -694,10 +694,10 @@ packages:
       level: '*'
     resolution:
       integrity: sha512-zxuvmVK0TjuXf5oHMEUzz0SGUb1rAlG89mj/pNMbIaMIqOrAvlvo1/6hkoN3squ3G/Fv0ORe78tWt0kMx8Nz/Q==
-  /lodash/4.17.15:
+  /lodash/4.17.19:
     dev: false
     resolution:
-      integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+      integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
   /long/4.0.0:
     dev: false
     resolution:
@@ -1044,13 +1044,13 @@ packages:
       node: '>=0.6'
     resolution:
       integrity: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
-  /quick.db/7.1.1:
+  /quick.db/7.1.2:
     dependencies:
       better-sqlite3: 6.0.1
-      lodash: 4.17.15
+      lodash: 4.17.19
     dev: false
     resolution:
-      integrity: sha512-PziF96cxYNvHcgkZkEbZ3UzhR2bXcLff96n68J1DhE/2Q2ELeGnd/Z4jtqJqZz5rfiqXvzEbCznXV8wNsOTSww==
+      integrity: sha512-ItAgjP6CHlC8XN4AAc+K24jDxRmAkkIe5TQp6xyXF5QCCgFlpaknpA3OyLTQ4Dw0c7yq28bcD6SVc7ML/1T/DQ==
   /random-bytes/1.0.0:
     dev: false
     engines:
@@ -1451,6 +1451,7 @@ packages:
     dev: false
     name: ytdl-core-discord
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/amishshah/ytdl-core-discord/tar.gz/4a1c6b7f5acc9266bdef93760040219a541e1628'
     version: 1.2.2
   github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d:
