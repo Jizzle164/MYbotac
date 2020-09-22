@@ -8,7 +8,7 @@ dependencies:
   helmet: 3.23.3
   level-session-store: 2.2.0
   marked: 1.1.1
-  moment: 2.28.0
+  moment: 2.29.0
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
   passport: 0.4.1
@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.11.1:
+  /@types/node/14.11.2:
     dev: false
     resolution:
-      integrity: sha512-oTQgnd0hblfLsJ6BvJzzSL+Inogp3lq9fGgqRkMB/ziKMgEUaFl801OncOzUmalfzt14N0oPHMK47ipl+wbTIw==
+      integrity: sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -811,10 +811,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-cBMXjSW+fjOb4tyaVHuaVE/A5TqkukDWiOfxxAjY+PEqmmBQlLwn+8OzwPiG3brouXKY5Un4pBjAeB6UToXHaQ==
-  /moment/2.28.0:
+  /moment/2.29.0:
     dev: false
     resolution:
-      integrity: sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
+      integrity: sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
   /ms/2.0.0:
     dev: false
     resolution:
@@ -1445,7 +1445,7 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/4a1c6b7f5acc9266bdef93760040219a541e1628:
     dependencies:
-      '@types/node': 14.11.1
+      '@types/node': 14.11.2
       prism-media: 1.2.2
       ytdl-core: 3.2.2
     dev: false
