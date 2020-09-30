@@ -1480,6 +1480,7 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/d2341654fe6ef87c6048bb5bf74c394062f3f618'
     version: 12.3.1
 registry: 'https://registry.npmjs.org/'
