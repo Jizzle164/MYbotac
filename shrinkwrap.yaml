@@ -13,7 +13,7 @@ dependencies:
   opusscript: 0.0.7
   passport: 0.4.1
   passport-discord: 0.1.4
-  quick.db: 7.1.2
+  quick.db: 7.1.3
   simple-youtube-api: 5.2.1
   ytdl-core: 3.3.0
   ytdl-core-discord: github.com/amishshah/ytdl-core-discord/5471076dc217dfdc10dc0991ceea8ecec2359fee
@@ -117,16 +117,15 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
-  /better-sqlite3/6.0.1:
+  /better-sqlite3/7.1.1:
     dependencies:
       bindings: 1.5.0
-      integer: 3.0.1
       prebuild-install: 5.3.5
       tar: 4.4.10
     dev: false
     requiresBuild: true
     resolution:
-      integrity: sha512-4aV1zEknM9g1a6B0mVBx1oIlmYioEJ8gSS3J6EpN1b1bKYEE+N5lmpmXHKNKTi0qjHziSd7XrXwHl1kpqvEcHQ==
+      integrity: sha512-AkvGGyhAVZhRBOul2WT+5CB2EuveM3ZkebEKe1wxMqDZUy1XB/1RBgM66t0ybHC4DIni8+pr7NaLqEX87NUTwg==
   /bindings/1.2.1:
     dev: false
     optional: true
@@ -636,14 +635,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
-  /integer/3.0.1:
-    dependencies:
-      bindings: 1.5.0
-      prebuild-install: 5.3.5
-    dev: false
-    requiresBuild: true
-    resolution:
-      integrity: sha512-OqtER6W2GIJTIcnT5o2B/pWGgvurnVOYs4OZCgay40QEIbMTnNq4R0KSaIw1TZyFtPWjm5aNM+pBBMTfc3exmw==
   /ipaddr.js/1.9.1:
     dev: false
     engines:
@@ -694,10 +685,10 @@ packages:
       level: '*'
     resolution:
       integrity: sha512-zxuvmVK0TjuXf5oHMEUzz0SGUb1rAlG89mj/pNMbIaMIqOrAvlvo1/6hkoN3squ3G/Fv0ORe78tWt0kMx8Nz/Q==
-  /lodash/4.17.19:
+  /lodash/4.17.20:
     dev: false
     resolution:
-      integrity: sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /long/4.0.0:
     dev: false
     resolution:
@@ -823,11 +814,11 @@ packages:
     dev: false
     resolution:
       integrity: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
-  /nan/2.14.1:
+  /nan/2.14.2:
     dev: false
     optional: true
     resolution:
-      integrity: sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
+      integrity: sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
   /napi-build-utils/1.0.2:
     dev: false
     resolution:
@@ -865,7 +856,7 @@ packages:
     dependencies:
       bindings: 1.2.1
       commander: 2.20.3
-      nan: 2.14.1
+      nan: 2.14.2
     deprecated: This project is unmaintained. See @discordjs/opus for an alternative.
     dev: false
     engines:
@@ -1044,13 +1035,13 @@ packages:
       node: '>=0.6'
     resolution:
       integrity: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
-  /quick.db/7.1.2:
+  /quick.db/7.1.3:
     dependencies:
-      better-sqlite3: 6.0.1
-      lodash: 4.17.19
+      better-sqlite3: 7.1.1
+      lodash: 4.17.20
     dev: false
     resolution:
-      integrity: sha512-ItAgjP6CHlC8XN4AAc+K24jDxRmAkkIe5TQp6xyXF5QCCgFlpaknpA3OyLTQ4Dw0c7yq28bcD6SVc7ML/1T/DQ==
+      integrity: sha512-0S1fVb9OAZGhkI4ZIc5Oe4yWMwhz20xSsziwd6+yGWKKMsPt+XOfj/gD5CesGxd2WdqBkZFBiP8ZqWDu55HLHA==
   /random-bytes/1.0.0:
     dev: false
     engines:
@@ -1457,7 +1448,7 @@ packages:
   github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d:
     dependencies:
       bindings: 1.5.0
-      nan: 2.14.1
+      nan: 2.14.2
     dev: false
     name: erlpack
     optional: true
