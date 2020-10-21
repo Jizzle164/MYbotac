@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/d2341654fe6ef87c6048bb5bf74c394062f3f618
+  discord.js: github.com/discordjs/discord.js/250c3ae3c1f025c092383e4661bbb386e89a3c23
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.5
   express: 4.17.1
@@ -15,7 +15,7 @@ dependencies:
   passport-discord: 0.1.4
   quick.db: 7.1.3
   simple-youtube-api: 5.2.1
-  ytdl-core: 3.3.0
+  ytdl-core: 3.4.1
   ytdl-core-discord: github.com/amishshah/ytdl-core-discord/5471076dc217dfdc10dc0991ceea8ecec2359fee
 optionalDependencies:
   erlpack: github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d
@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.11.8:
+  /@types/node/14.14.0:
     dev: false
     resolution:
-      integrity: sha512-KPcKqKm5UKDkaYPTuXSx8wEP7vE9GnuaXIZKijwRYcePpZFDVuy2a57LarFKiORbHOuTOOwYzxVxcUzsh2P2Pw==
+      integrity: sha512-BfbIHP9IapdupGhq/hc+jT5dyiBVZ2DdeC5WwJWQWDb0GijQlzUFAeIQn/2GtvZcd2HVUU7An8felIICFTC2qg==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -120,7 +120,7 @@ packages:
   /better-sqlite3/7.1.1:
     dependencies:
       bindings: 1.5.0
-      prebuild-install: 5.3.5
+      prebuild-install: 5.3.6
       tar: 4.4.10
     dev: false
     requiresBuild: true
@@ -973,13 +973,13 @@ packages:
     dev: false
     resolution:
       integrity: sha1-HUCLP9t2kjuVQ9lvtMnf1TXZy10=
-  /prebuild-install/5.3.5:
+  /prebuild-install/5.3.6:
     dependencies:
       detect-libc: 1.0.3
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.5
-      mkdirp: 0.5.5
+      mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
       node-abi: 2.19.1
       noop-logger: 0.1.1
@@ -995,7 +995,7 @@ packages:
       node: '>=6'
     hasBin: true
     resolution:
-      integrity: sha512-YmMO7dph9CYKi5IR/BzjOJlRzpxGGVo1EsLSUZ0mt/Mq0HWZIHOKHHcHdT69yG54C9m6i45GpItwRHpk0Py7Uw==
+      integrity: sha512-s8Aai8++QQGi4sSbs/M1Qku62PFK49Jm1CbgXklGz4nmHveDq0wzJkg7Na5QbnO1uNH8K7iqx2EQ/mV0MZEmOg==
   /prism-media/0.0.4:
     dev: false
     resolution:
@@ -1399,7 +1399,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
-  /ytdl-core/3.3.0:
+  /ytdl-core/3.4.1:
     dependencies:
       html-entities: 1.3.1
       m3u8stream: 0.7.1
@@ -1409,7 +1409,7 @@ packages:
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-jesZn1BCKanWEtVymezoJTMUF0B0Z6OQuf8M61zy0QUoNQprR2SYwzwI6dTOZHURz7wk1ffPgbYLu6BZq0vUsQ==
+      integrity: sha512-eiGprr+w0Uo9no7FdeQja8JySnvBb3M9eV0m+sq37L5+d7YyQZ+xkP+I5yzuw5s2FWnBv5jMnoZmBZLPJmAKbg==
   github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2:
     dependencies:
       long: 4.0.0
@@ -1436,9 +1436,9 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/5471076dc217dfdc10dc0991ceea8ecec2359fee:
     dependencies:
-      '@types/node': 14.11.8
+      '@types/node': 14.14.0
       prism-media: 1.2.2
-      ytdl-core: 3.3.0
+      ytdl-core: 3.4.1
     dev: false
     name: ytdl-core-discord
     resolution:
@@ -1456,7 +1456,7 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/d2341654fe6ef87c6048bb5bf74c394062f3f618:
+  github.com/discordjs/discord.js/250c3ae3c1f025c092383e4661bbb386e89a3c23:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
@@ -1471,9 +1471,8 @@ packages:
       node: '>=12.0.0'
     name: discord.js
     resolution:
-      registry: 'https://registry.npmjs.org/'
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/d2341654fe6ef87c6048bb5bf74c394062f3f618'
-    version: 12.3.1
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/250c3ae3c1f025c092383e4661bbb386e89a3c23'
+    version: 12.4.0
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
