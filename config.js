@@ -7,7 +7,7 @@ const config = {
   "dashboard" : {
     "oauthSecret": "OUhkTOqOHWLKhU2vY1mjnicioXtqpxTc",//Client secret.
     "callbackURL": `https://godzillamuzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
-    "sessionSecret": "Codare",//Bu kısımı, değiştirmeyiniz.
+    "sessionSecret": "Godzilla",//Bu kısımı, değiştirmeyiniz.
     "domain": "https://godzillamuzik.glitch.me"//Sitenin, adresi.
   }
 };
