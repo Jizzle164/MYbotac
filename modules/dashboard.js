@@ -114,11 +114,11 @@ module.exports = (client, v2) => {
     }
     
   });
-//BU ALTYAPI SATILAMAZ 
+
   app.get("/autherror", (req, res) => {
     renderTemplate(res, req, "autherror.ejs");
     
-    client.channels.get("498131796870037514").send("Web Panelinde bağlantı hatası oluştu! Kişi giriş yapamıyor tekrar denemeli! Büyük bir sorun değil.")
+    client.channels.get("776848489304686652").send("Web Panelinde bağlantı hatası oluştu! Kişi giriş yapamıyor tekrar denemeli! Büyük bir sorun değil.")
   });
 
   app.get("/logout", function(req, res) {
@@ -128,18 +128,18 @@ module.exports = (client, v2) => {
     });
     
   });
-//BU ALTYAPI SATILAMAZ 
+
 
  app.get("/", (req, res) => {
     renderTemplate(res, req, "index.ejs");
     
   });
-//BU ALTYAPI SATILAMAZ 
+
 
   app.get("/commands", (req, res) => {
     renderTemplate(res, req, "commands.ejs", {md});
   });
-  //BU ALTYAPI SATILAMAZ 
+ 
 
   app.get("/stats", (req, res) => {
     const duration = moment.duration(client.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]");
@@ -164,19 +164,19 @@ module.exports = (client, v2) => {
     const perms = Discord.EvaluatedPermissions;
     renderTemplate(res, req, "dashboard.ejs", {perms});
   });
-  //BU ALTYAPI SATILAMAZ 
+
 
   app.get("/admin", checkAuth, (req, res) => {
     if (!req.session.isAdmin) return res.redirect("/");
     renderTemplate(res, req, "admin.ejs");
   });
-//BU ALTYAPI SATILAMAZ 
+
 
   app.get("/dashboard/:guildID", checkAuth, (req, res) => {
     res.redirect(`/dashboard/${req.params.guildID}/manage`);
   });
 
-//BU ALTYAPI SATILAMAZ 
+
 
   const managementRenderTemp = (res, req, template, data = {}) => {
     const baseData = {

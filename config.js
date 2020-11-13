@@ -1,14 +1,14 @@
 const config = {
-  "ownerID": "564854610309939235",//Bu kısıma, kendi ID'niz. 
-  "sahip": ["564854610309939235"],
-  "admins": [""],//Yetkili eklemek isterseniz, o kişinin ID'si.
-  "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
-  "token": "NzUzMjY1MTg5NDEwOTYzNTI3.X1jq4A.Jn151RXz4jpgCCpt_JBxxjEuSzo",//Botun, tokeni.
+  "ownerID": "759335458005843978",//Bu kısıma, kendi ID'niz. 
+  "sahip": ["759335458005843978"],
+  "admins": ["517637425598693388517637425598693388"],//Yetkili eklemek isterseniz, o kişinin ID'si.
+  "support": ["517637425598693388"],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
+  "token": "Nzc2ODcyODMyNjEzMjIwNDM1.X67NNA.0DfDVW8dyRJWA-920iQOcht-Ik4",//Botun, tokeni.
   "dashboard" : {
-    "oauthSecret": "4G99fsj3tq5X-mkcyL43tsqeodcKePhG",//Client secret.
-    "callbackURL": `https://gelis-muzik-botu.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
+    "oauthSecret": "OUhkTOqOHWLKhU2vY1mjnicioXtqpxTc",//Client secret.
+    "callbackURL": `https://godzillamuzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
     "sessionSecret": "Codare",//Bu kısımı, değiştirmeyiniz.
-    "domain": "https://gelis-muzik-botu.glitch.me"//Sitenin, adresi.
+    "domain": "https://godzillamuzik.glitch.me"//Sitenin, adresi.
   }
 };
 

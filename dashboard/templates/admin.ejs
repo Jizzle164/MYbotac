@@ -1,6 +1,6 @@
 <%- include('blocks/header', {bot, user, path}) %>
 
-  <h1 class="display-3">Admin Paneli</h1>
+  <h1 class="display-3">Godzilla Admin Paneli</h1>
   <ul class="list-unstyled">
     <% bot.guilds.forEach(guild => { %>
     
@@ -36,7 +36,7 @@ width: 80px;
                     text = "Düzenle";
                   } else {
                     href = `https://discordapp.com/oauth2/authorize?client_id=${bot.config.dashboard.clientID}&scope=bot&guild_id=${guild.id}&response_type=code&redirect_uri=${encodeURIComponent(client.config.dashboard.callbackURL)}`;
-                    text = "Botu Ekle";
+                    text = "Godzilla Müzik Botu Ekle";
                   }
                   %>
                   <a class="btn btn-primary btn-lg" role="button" href="<%= href %>"> <%= text %> <i class="fa fa-fw fa-chevron-circle-right" aria-hidden="true"></i></a>
