@@ -3,12 +3,12 @@ const config = {
   "sahip": ["759335458005843978"],
   "admins": ["517637425598693388517637425598693388"],//Yetkili eklemek isterseniz, o kişinin ID'si.
   "support": ["517637425598693388"],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
-  "token": "Nzc2ODcyODMyNjEzMjIwNDM1.X67NNA.0DfDVW8dyRJWA-920iQOcht-Ik4",//Botun, tokeni.
+  "token": "ODAxOTQ0NjU0MTIyNzEzMDg4.YAoDKA.BrvA-2erZi5xSt6xKfW7YVN4lwM",//Botun, tokeni.
   "dashboard" : {
-    "oauthSecret": "OUhkTOqOHWLKhU2vY1mjnicioXtqpxTc",//Client secret.
+    "oauthSecret": "nG9L90vAWh3CrOGUvkdLg5zxG6UjAcUm",//Client secret.
     "callbackURL": `https://godzillamuzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
     "sessionSecret": "Godzilla",//Bu kısımı, değiştirmeyiniz.
-    "domain": "https://godzillamuzik.glitch.me"//Sitenin, adresi.
+    "domain": "https://.glitch.me"//Sitenin, adresi.
   }
 };
 

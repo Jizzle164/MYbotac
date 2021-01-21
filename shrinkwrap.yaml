@@ -35,10 +35,10 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.14.20:
+  /@types/node/14.14.22:
     dev: false
     resolution:
-      integrity: sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
+      integrity: sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -1432,7 +1432,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-R6m1XZQK+iXxb9Q9Wo14/K8mti1r4HnKv4zKrbp5FvMG/jDbeV0xQHUHqqDLk+uiDy/VU6fVATm5x2ms0QaF5w==
-  /ytdl-core/4.4.2:
+  /ytdl-core/4.4.4:
     dependencies:
       m3u8stream: 0.8.3
       miniget: 4.1.0
@@ -1441,7 +1441,7 @@ packages:
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-T6eXIhDoDPqmxFKPu4R2LG+X/uWYh1wy/cfAf+OwJNHx6+cAYXbdyZ8j2el9yy1G3nDP1Dd4YN5BGRATJdQlFg==
+      integrity: sha512-/IFJTM5RjN20q6RVaE/9rv9tKoBtx95lKZCI/pUPDiDzu9fXyuPbkVzEQJmsYEwzi0zdv4d6iJy0gHWz49o6mw==
   github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2:
     dependencies:
       long: 4.0.0
@@ -1468,9 +1468,9 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/0093cfa3ae193d8300ba2ebcd213391109bb7520:
     dependencies:
-      '@types/node': 14.14.20
+      '@types/node': 14.14.22
       prism-media: 1.2.3
-      ytdl-core: 4.4.2
+      ytdl-core: 4.4.4
     dev: false
     name: ytdl-core-discord
     resolution:
